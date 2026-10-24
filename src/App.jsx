@@ -1,4 +1,5 @@
 import Welcome from "./Welcome";
+import Eventcalling from "./Eventcalling";
 function App() {
   return(
     <div>
@@ -9,6 +10,7 @@ function App() {
         yunush alam
       </h2>
       <Welcome/>
+      <Eventcalling/>
     </div>
   );
   
