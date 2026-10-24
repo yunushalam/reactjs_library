@@ -1,3 +1,4 @@
+import Welcome from "./Welcome";
 function App() {
   return(
     <div>
@@ -7,6 +8,7 @@ function App() {
       <h2>
         yunush alam
       </h2>
+      <Welcome/>
     </div>
   );
   
