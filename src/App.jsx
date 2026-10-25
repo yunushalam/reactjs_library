@@ -1,5 +1,6 @@
 import Welcome from "./Welcome";
 import Eventcalling from "./Eventcalling";
+import Counter from "./counter";
 function App() {
   return(
     <div>
@@ -11,7 +12,9 @@ function App() {
       </h2>
       <Welcome/>
       <Eventcalling/>
+       <Counter/>
     </div>
+   
   );
   
 }
