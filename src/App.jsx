@@ -1,5 +1,6 @@
 import Welcome from "./Welcome";
 import Eventcalling from "./Eventcalling";
+import Toggle from "./Toggle";
 import Counter from "./counter";
 function App() {
   return(
@@ -13,6 +14,7 @@ function App() {
       <Welcome/>
       <Eventcalling/>
        <Counter/>
+      <Toggle/>
     </div>
    
   );
